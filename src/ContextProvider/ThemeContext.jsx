@@ -12,7 +12,7 @@ import { theme } from '../Utils/themes';
 // 	}
 // 	return mode;
 // };
-const getMode = JSON.parse(localStorage.getItem('theme')) || 'dark';
+const getMode = JSON.parse(localStorage.getItem('theme')) || 'light';
 export const ThemeContext = createContext();
 
 const ThemeContextProvider = ({ children }) => {
