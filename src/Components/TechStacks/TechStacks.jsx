@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
 import styles from "./TechStacks.module.css";
+import GitHubCalendar from "react-github-calendar";
 import {
   DiJavascript1,
   DiHtml5,
@@ -123,6 +124,12 @@ const TechStacks = () => {
 
           <span>Git</span>
         </div>
+      </div>
+      <div className={styles.githubcalender} >
+        <GitHubCalendar
+          username="Inder-Pal-github"
+          year={new Date().getFullYear()}
+        />
       </div>
     </div>
   );
