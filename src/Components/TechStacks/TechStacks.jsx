@@ -39,7 +39,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiHtml5 />
+              <DiHtml5 color="orange" />
               <span>HTML</span>
             </div>
             <div
@@ -49,7 +49,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiCss3 />
+              <DiCss3 color="blue" />
               <span>CSS</span>
             </div>
             <div
@@ -59,7 +59,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiJavascript1 />
+              <DiJavascript1 color="yellow" size="26px" />
               <span>Javascript</span>
             </div>
 
@@ -70,7 +70,10 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiReact />
+              <DiReact
+                color="#0095da"
+                size="26px"
+              />
               <span>React</span>
             </div>
             <div
@@ -84,7 +87,7 @@ const TechStacks = () => {
                 style={{ color: "#7248B6" }}
                 className="devicon-redux-original"
               />
-              <SiRedux />
+              <SiRedux color="#764abc" size="26px" />
               <span>Redux</span>
             </div>
           </div>
@@ -99,7 +102,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiNodejs />
+              <DiNodejs size="medium" />
               <span>Node</span>
             </div>
             <div
@@ -110,7 +113,7 @@ const TechStacks = () => {
               className={styles.logoWrapper}
             >
               <i className="devicon-express-original" />
-              <SiExpress />
+              <SiExpress size="26px" color="black" />
               <span>Express</span>
             </div>
             <div
@@ -120,7 +123,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiMongodb />
+              <DiMongodb size="26px" color="lightgreen" />
               <span>MongoDB</span>
             </div>
           </div>
@@ -148,7 +151,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <SiChakraui />
+              <SiChakraui size="26px" color="#0095da" />
 
               <span>chakra-UI</span>
             </div>
@@ -160,7 +163,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiGit />
+              <DiGit size="26px" color="brown" />
 
               <span>Git</span>
             </div>

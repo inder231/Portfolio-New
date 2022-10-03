@@ -80,7 +80,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border-bottom: 7px solid #9802be;
+    border-bottom: 7px solid #272528;
     transform: rotate(-2deg);
     transition: 0.5s;
     position: fixed;
@@ -189,14 +189,14 @@ html {
   
     .profileImage {
       position: fixed;
-      width: 50vw;
-      height: 50vw;
-      top: 80px;
-      right: 50%;
+      width: 30vw;
+      height: 30vw;
+      top: 30%;
+      right: 20%;
       transform: translateX(50%) !important;
     }
     .profileImage img {
-      width: 50vw;
+      width: 30vw;
     }
     .name {
       font-size: 42px;
@@ -205,14 +205,15 @@ html {
   
   @media screen and (max-width: 360px) {
     .profileImage {
-      width: 40vw;
-      height: 40vw;
-      top: 70px;
-      right: 50%;
-      transform: translateX(50%) !important;
+      position: fixed;
+      width: 20vw;
+      height: 20vw;
+      top: 30%;
+      right: 20%;
+      transform: translateX(100%) !important;
     }
     .profileImage img {
-      width: 40vw;
+      width: 20vw;
     }
     .intro {
       margin-top: 30vh;

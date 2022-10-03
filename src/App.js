@@ -1,72 +1,44 @@
-import React, { useEffect, useRef, useState } from 'react';
-import './App.css';
-import Home from './Components/Home/Home';
-import Navbar from './Components/Navbar/Navbar';
-import { ThemeContext } from './ContextProvider/ThemeContext';
-import hp1 from './assets/ss2logo.jpg'
+import React, { useEffect, useRef, useState } from "react";
+import "./App.css";
+import Home from "./Components/Home/Home";
+import Navbar from "./Components/Navbar/Navbar";
+import { ThemeContext } from "./ContextProvider/ThemeContext";
 
 function App() {
-	const [state, setState] = useState(false);
-	const { newTheme, open, handleMenu } =
-		React.useContext(ThemeContext);
-	const scrollRef = useRef();
+  const [state, setState] = useState(false);
+  const { newTheme, open, handleMenu } = React.useContext(ThemeContext);
+  const scrollRef = useRef();
 
-	useEffect(() => {
-		setTimeout(() => {
-			setState(true);
-		}, 2200);
-	}, []);
-
-	return (
+  return (
     <React.Fragment>
-      {!state ? (
+      <div className="components">
         <div
           style={{
-            background: `${newTheme.background}`,
+            background: `${newTheme.menuBackground}`,
+            color: `${newTheme.title}`,
+            left: `${open ? "-100vw" : "0"}`,
           }}
-          className="logoStart"
+          className="links"
         >
-          <img
-            className="sl_logo"
-            src={hp1}
-            alt="logo"
-            style={{width:"300px"}}
-          />
+          <a onClick={handleMenu} href="#home">
+            Home
+          </a>
+          <a onClick={handleMenu} href="#about">
+            About
+          </a>
+          <a onClick={handleMenu} href="#projects">
+            Projects
+          </a>
+          <a onClick={handleMenu} href="#techStacks">
+            Skills
+          </a>
+          <a onClick={handleMenu} href="#contact">
+            Contact
+          </a>
         </div>
-      ) : (
-        <div className="components">
-          <div
-            style={{
-              background: `${newTheme.menuBackground}`,
-              color: `${newTheme.title}`,
-              left: `${open ? "-100vw" : "0"}`,
-            }}
-            className="links"
-          >
-            <a onClick={handleMenu} href="#home">
-              Home
-            </a>
-            <a onClick={handleMenu} href="#about">
-              About
-            </a>
-            {/* <a onClick={handleMenu} href='#experience'>
-							Experience
-						</a> */}
-
-            <a onClick={handleMenu} href="#projects">
-              Projects
-            </a>
-            <a onClick={handleMenu} href="#techStacks">
-              Skills
-            </a>
-            <a onClick={handleMenu} href="#contact">
-              Contact
-            </a>
-          </div>
-          <Navbar />
-          <Home scrollRef={scrollRef} />
-        </div>
-      )}
+        <Navbar />
+        <Home scrollRef={scrollRef} />
+      </div>
     </React.Fragment>
   );
 }

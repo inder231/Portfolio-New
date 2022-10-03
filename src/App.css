@@ -20,22 +20,12 @@
 	}
 	to {
 		transform: rotate(360deg);
-		/* width: 200px;
-		opacity: 0; */
 	}
 }
 .components {
 	text-align: center;
 	animation: wakeup 1s;
 }
-/* @keyframes wakeup {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-} */
 button {
 	cursor: pointer;
 	outline: none;

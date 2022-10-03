@@ -5,19 +5,12 @@ import SideIcons from "../SideIcons/SideIcons";
 import TechStacks from "../TechStacks/TechStacks";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img1 from "../../assets/sl-image.png"
 import { Button } from "../Button/Button";
 import About from "../About/About";
 import { projects } from "../../Utils/Projects";
 import Contact from "../Contact/Contact";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
-// import hp2 from "../../assets/profile_pic.png";
-import hp2 from "../../assets/Inder_Pal_Profile.jpg";
-
-// import sl from "../../assets/sl-image.png";
-// import Experiences from '../Experiences/Experiences';
-
-
+import hp2 from "../../assets/Inder_Profile.jpg";
 
 const Home = ({ scrollRef }) => {
   const [projectArray, setProjectArray] = useState(projects.slice(0, 4));
@@ -42,8 +35,6 @@ const Home = ({ scrollRef }) => {
   }, [newTheme]);
 
   const handleButton = () => {};
-
-  // console.log(offset);
   const handleShowMoreBtn = () => {
     if (projects.length === projectArray.length) {
       setProjectArray(projects.slice(0, 4));
