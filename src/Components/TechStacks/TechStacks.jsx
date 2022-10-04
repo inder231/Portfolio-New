@@ -12,7 +12,8 @@ import {
   DiMongodb,
   DiGit,
 } from "react-icons/di";
-import { SiRedux, SiExpress, SiChakraui } from "react-icons/si";
+import { SiRedux, SiExpress, SiChakraui,SiNetlify,SiVercel,SiHeroku } from "react-icons/si";
+import {VscJson} from "react-icons/vsc"
 import { FcTreeStructure } from "react-icons/fc";
 
 const TechStacks = () => {
@@ -35,7 +36,6 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-
               }}
               className={styles.logoWrapper}
             >
@@ -45,7 +45,6 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-
               }}
               className={styles.logoWrapper}
             >
@@ -55,7 +54,6 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-
               }}
               className={styles.logoWrapper}
             >
@@ -66,7 +64,6 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-
               }}
               className={styles.logoWrapper}
             >
@@ -76,7 +73,6 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-
               }}
               className={styles.logoWrapper}
             >
@@ -87,6 +83,16 @@ const TechStacks = () => {
               <SiRedux color="#764abc" size="50px" />
               <span>Redux</span>
             </div>
+            <div
+              style={{
+                color: `${newTheme.title}`,
+              }}
+              className={styles.logoWrapper}
+            >
+              <SiChakraui size="50px" color="#0095da" />
+
+              <span>chakra-UI</span>
+            </div>
           </div>
         </div>
         <div className={styles.backend}>
@@ -95,7 +101,6 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-
               }}
               className={styles.logoWrapper}
             >
@@ -105,7 +110,6 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-
               }}
               className={styles.logoWrapper}
             >
@@ -116,23 +120,15 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-
               }}
               className={styles.logoWrapper}
             >
               <DiMongodb size="50px" color="lightgreen" />
               <span>MongoDB</span>
             </div>
-          </div>
-        </div>
-        <div className={styles.others}>
-          <div className={styles.techText}>Others</div>
-          <div className={styles.container}>
             <div
               style={{
                 color: `${newTheme.title}`,
-
-                height: "100px",
               }}
               className={styles.logoWrapper}
             >
@@ -140,23 +136,14 @@ const TechStacks = () => {
 
               <span>DSA</span>
             </div>
+          </div>
+        </div>
+        <div className={styles.others}>
+          <div className={styles.techText}>Tools</div>
+          <div className={styles.container}>
             <div
               style={{
                 color: `${newTheme.title}`,
-
-                height: "100px",
-              }}
-              className={styles.logoWrapper}
-            >
-              <SiChakraui size="50px" color="#0095da" />
-
-              <span>chakra-UI</span>
-            </div>
-            <div
-              style={{
-                color: `${newTheme.title}`,
-
-                height: "100px",
               }}
               className={styles.logoWrapper}
             >
@@ -164,11 +151,52 @@ const TechStacks = () => {
 
               <span>Git</span>
             </div>
+            <div
+              style={{
+                color: `${newTheme.title}`,
+              }}
+              className={styles.logoWrapper}
+            >
+              <SiNetlify size="50px" color="lightblue" />
+
+              <span>Netlify</span>
+            </div>
+            <div
+              style={{
+                color: `${newTheme.title}`,
+              }}
+              className={styles.logoWrapper}
+            >
+              <SiVercel size="50px" color="darkblue" />
+
+              <span>Vercel</span>
+            </div>
+            <div
+              style={{
+                color: `${newTheme.title}`,
+              }}
+              className={styles.logoWrapper}
+            >
+              <SiHeroku size="50px" color="black" />
+
+              <span>Heroku</span>
+            </div>
+            <div
+              style={{
+                color: `${newTheme.title}`,
+              }}
+              className={styles.logoWrapper}
+            >
+              <VscJson size="50px" color="brown" />
+
+              <span>Json Server</span>
+            </div>
           </div>
         </div>
       </div>
       <div className={styles.githubInfo}>
-        <div className={styles.githubcalender} >
+        <div className={styles.githubcalender}>
+          <div style={{fontSize:"18px",fontWeight:"bold"}} >Days I coded</div>
           <GitHubCalendar
             username="Inder-Pal-github"
             year={new Date().getFullYear()}
