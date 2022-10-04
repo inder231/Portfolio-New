@@ -96,7 +96,7 @@ const TechStacks = () => {
           </div>
         </div>
         <div className={styles.backend}>
-          <div className={styles.techText}>Backend</div>
+          <div className={styles.techText}>Backend & Data Structures</div>
           <div className={styles.container}>
             <div
               style={{
