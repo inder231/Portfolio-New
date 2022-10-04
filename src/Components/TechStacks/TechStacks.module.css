@@ -10,7 +10,8 @@
   margin-top: 50px;
 }
 .techText {
-  color: lightgray;
+  color: black;
+  font-size: 18px;
   font-style: italic;
 }
 .frontend {

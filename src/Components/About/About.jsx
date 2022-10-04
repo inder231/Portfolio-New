@@ -12,15 +12,6 @@ const About = () => {
       className={styles.container}
       style={{ boxShadow: `3px 3px 5px ${newTheme.line}` }}
     >
-      {/* <div className={styles.first}>
-        <img
-          src={
-            // "https://github.com/Swapnil1296/portfolio_images/blob/main/images/developer.gif?raw=true"
-            "https://i0.wp.com/www.inventiva.co.in/wp-content/uploads/2021/02/download.jpg"
-          }
-          alt=""
-        />
-      </div> */}
       <div className={styles.second}>
         <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
           About Me
