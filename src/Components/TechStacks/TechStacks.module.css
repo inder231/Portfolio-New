@@ -1,6 +1,6 @@
 .skills {
   padding: 1rem;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(211, 212, 214, 0.2) 0px 8px 24px;
 }
 .container {
   display: flex;
@@ -9,27 +9,30 @@
   justify-content: center;
   margin-top: 50px;
 }
+.container>div{
+  border:1px solid lightgray;
+}
 .techText {
   color: black;
   font-size: 18px;
   font-style: italic;
 }
 .frontend {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(193, 190, 190, 0.35) 0px 5px 15px;
   margin-top: 1rem;
   width:80vw;
   margin:auto;
   border-radius: 1rem;
 }
 .backend {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(193, 190, 190, 0.35) 0px 5px 15px;
   border-radius: 1rem;
   width:80vw;
   margin:auto;
   margin-top: 1rem;
 }
 .others {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(193, 190, 190, 0.35) 0px 5px 15px;
   width:80vw;
   margin:auto;
   border-radius: 1rem;

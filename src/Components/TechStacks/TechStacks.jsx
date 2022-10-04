@@ -35,7 +35,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
               }}
               className={styles.logoWrapper}
             >
@@ -45,7 +45,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
               }}
               className={styles.logoWrapper}
             >
@@ -55,7 +55,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
               }}
               className={styles.logoWrapper}
             >
@@ -66,7 +66,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
               }}
               className={styles.logoWrapper}
             >
@@ -76,7 +76,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
               }}
               className={styles.logoWrapper}
             >
@@ -95,7 +95,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
               }}
               className={styles.logoWrapper}
             >
@@ -105,7 +105,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
               }}
               className={styles.logoWrapper}
             >
@@ -116,7 +116,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
               }}
               className={styles.logoWrapper}
             >
@@ -131,7 +131,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
                 height: "100px",
               }}
               className={styles.logoWrapper}
@@ -143,7 +143,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
                 height: "100px",
               }}
               className={styles.logoWrapper}
@@ -155,7 +155,7 @@ const TechStacks = () => {
             <div
               style={{
                 color: `${newTheme.title}`,
-                background: `${newTheme.linkHover}`,
+
                 height: "100px",
               }}
               className={styles.logoWrapper}
