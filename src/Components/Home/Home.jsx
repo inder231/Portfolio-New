@@ -71,10 +71,9 @@ const Home = ({ scrollRef }) => {
           <h1>Full Stack Web Developer.</h1>
           <div className={styles.btn}>
             <a
-              href="/files/Inder_Pal_Resume.pdf" 
+              href="https://drive.google.com/file/d/1GLRvfk5zDWTgoKHLEli7ASNj8no2abTu/view?usp=sharing" 
               target="_blank"
               rel="noreferrer"
-              download
             >
               <Button
                 text={
