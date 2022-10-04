@@ -1,7 +1,7 @@
 import React, { useState, useRef, useContext } from 'react';
 import { ThemeContext } from '../../ContextProvider/ThemeContext';
 import styles from './Navbar.module.css';
-
+import {FaUserNinja} from "react-icons/fa"
 const barStyle = {
 	bar1: {
 		position: 'absolute',
@@ -46,7 +46,7 @@ const Navbar = () => {
 
 	return (
 		<nav
-			ref={navRef}
+			// ref={navRef}
 			className={styles.navContainer}
 			style={{
 				background: `${newTheme.background}`,
@@ -56,10 +56,7 @@ const Navbar = () => {
 			<div className={styles.navbar}>
 				<a href='#'>
 					<div className={styles.logo}>
-						<img
-							src='https://github.com/RahulGoyal03/Portfolio/blob/main/src/assets/logorahul.png?raw=true'
-							alt='Logo'
-						/>
+						Inder <FaUserNinja/>
 					</div>
 				</a>
 
@@ -67,7 +64,7 @@ const Navbar = () => {
 					style={{ color: `${newTheme.title}` }}
 					className={styles.links}
 				>
-					<a  href='#home'>Home</a>
+					<a  href='#'>Home</a>
 					<a  href='#about'>About</a>
 					<a href='#techStacks'>Skills</a>
 					<a href='#projects'>Projects</a>

@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
 import styles from "./TechStacks.module.css";
 import GitHubCalendar from "react-github-calendar";
-import ProgressBar from "react-bootstrap/ProgressBar";
+// import ProgressBar from "react-bootstrap/ProgressBar";
 import {
   DiJavascript1,
   DiHtml5,
@@ -30,7 +30,7 @@ const TechStacks = () => {
       <div className={styles.borderBottom} />
       <div className={styles.skills}>
         <div className={styles.frontend}>
-          <div className={styles.techText}>frontend</div>
+          <div className={styles.techText}>Frontend</div>
           <div className={styles.container}>
             <div
               style={{
@@ -39,7 +39,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiHtml5 color="orange" />
+              <DiHtml5 color="orange" size="50px" />
               <span>HTML</span>
             </div>
             <div
@@ -49,7 +49,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiCss3 color="blue" />
+              <DiCss3 color="blue" size="50px" />
               <span>CSS</span>
             </div>
             <div
@@ -59,7 +59,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiJavascript1 color="yellow" size="26px" />
+              <DiJavascript1 color="yellow" size="50px" />
               <span>Javascript</span>
             </div>
 
@@ -70,10 +70,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiReact
-                color="#0095da"
-                size="26px"
-              />
+              <DiReact color="#0095da" size="50px" />
               <span>React</span>
             </div>
             <div
@@ -87,13 +84,13 @@ const TechStacks = () => {
                 style={{ color: "#7248B6" }}
                 className="devicon-redux-original"
               />
-              <SiRedux color="#764abc" size="26px" />
+              <SiRedux color="#764abc" size="50px" />
               <span>Redux</span>
             </div>
           </div>
         </div>
         <div className={styles.backend}>
-          <div className={styles.techText}>backend</div>
+          <div className={styles.techText}>Backend</div>
           <div className={styles.container}>
             <div
               style={{
@@ -102,7 +99,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiNodejs size="medium" />
+              <DiNodejs size="50px" />
               <span>Node</span>
             </div>
             <div
@@ -113,7 +110,7 @@ const TechStacks = () => {
               className={styles.logoWrapper}
             >
               <i className="devicon-express-original" />
-              <SiExpress size="26px" color="black" />
+              <SiExpress size="50px" color="black" />
               <span>Express</span>
             </div>
             <div
@@ -123,7 +120,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiMongodb size="26px" color="lightgreen" />
+              <DiMongodb size="50px" color="lightgreen" />
               <span>MongoDB</span>
             </div>
           </div>
@@ -139,7 +136,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <FcTreeStructure />
+              <FcTreeStructure size="50px" />
 
               <span>DSA</span>
             </div>
@@ -151,7 +148,7 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <SiChakraui size="26px" color="#0095da" />
+              <SiChakraui size="50px" color="#0095da" />
 
               <span>chakra-UI</span>
             </div>
@@ -163,18 +160,26 @@ const TechStacks = () => {
               }}
               className={styles.logoWrapper}
             >
-              <DiGit size="26px" color="brown" />
+              <DiGit size="50px" color="brown" />
 
               <span>Git</span>
             </div>
           </div>
         </div>
       </div>
-      <div className={styles.githubcalender}>
-        <GitHubCalendar
-          username="Inder-Pal-github"
-          year={new Date().getFullYear()}
-        />
+      <div className={styles.githubInfo}>
+        <div className={styles.githubcalender} >
+          <GitHubCalendar
+            username="Inder-Pal-github"
+            year={new Date().getFullYear()}
+          />
+        </div>
+        <div className={styles.githubstats}>
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=inder-pal-github&%22%20alt=%22inder-pal-github"
+            alt="github_stats"
+          />
+        </div>
       </div>
     </div>
   );
