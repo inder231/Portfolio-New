@@ -8,8 +8,8 @@ export const projects = [
     title: "TRIPSVILLA",
     des: "Largest holiday home rental portal in Asia. Browse your ideal vacation home from over 100,000 holiday homes spread across destinations.",
     demo: "",
-    live: "https://tripsvilla-clone-project.netlify.app/",
-    gitHub: "https://github.com/Inder-Pal-github/tripVilla",
+    live: "https://tripvillas-three.vercel.app/",
+    gitHub: "https://github.com/Inder-Pal-github/tripVillas-Clone",
     technologies: [
       "HTML",
       "CSS",
