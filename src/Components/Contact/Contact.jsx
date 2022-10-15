@@ -13,7 +13,7 @@ const Contact = () => {
       <div className={styles.container}>
         <h1 style={{color: `${newTheme.title}`}}>Get in Touch</h1>
         <p style={{color: `${newTheme.para}`}} className={styles.paragraph}>
-          I'm actively looking for new opportunities, in full-stack web
+          Actively looking for new opportunities, in full-stack web
           development.
         </p>
 

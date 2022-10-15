@@ -19,22 +19,15 @@ const About = () => {
         <div className={styles.borderBottom} />
         <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe}>
           Aiming to leverage the proven knowledge of web development. Looking
-          forward to joining a company where I will be able to contribute
+          forward to joining a company to contribute
           towards individual and company growth. <br />
-          <br /> Curious and enjoy work that challenges me to learn something
-          new and stretch in a different direction. and I am
+          <br /> Curious and enjoy working on challenging projects and learn new technologies to stretch in a different directions. 
           <span style={{ color: `#00a0a0` }}>
             {" "}
-            looking for an opportunity as a full-stack web developer.
+            Looking for an opportunity as a full-stack web developer.
             <br />
           </span>
           <br />
-          Apart from coding, some other activities that I like to do!
-          <ul>
-            <li className="about-activity">Running</li>
-            <li className="about-activity">Volleyball</li>
-            <li className="about-activity">Badminton</li>
-          </ul>
         </p>
       </div>
     </div>
