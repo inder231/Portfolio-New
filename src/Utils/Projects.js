@@ -26,7 +26,7 @@ export const projects = [
     des: "Largest holiday home rental portal in Asia. Browse your ideal vacation home from over 100,000 holiday homes spread across destinations.",
     demo: "",
     live: "https://tripvillas-three.vercel.app/",
-    gitHub: "https://github.com/Inder-Pal-github/tripVillas-Clone",
+    gitHub: "https://github.com/inder231/tripVillas-Clone",
     technologies: [
       "HTML",
       "CSS",
@@ -43,7 +43,7 @@ export const projects = [
     des: "Bewakoof is an Online Shopping site for Men and Women Clothing. Shop from a wide range of T-shirts, Mobile Covers, Accessories and more at the best prices.",
     demo: "",
     live: "https://bewakoof-project.vercel.app/",
-    gitHub: "https://github.com/Inder-Pal-github/bewakoof-clone",
+    gitHub: "https://github.com/inder231/bewakoof-clone",
     technologies: [
       "HTML",
       "CSS",

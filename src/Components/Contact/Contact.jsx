@@ -68,7 +68,7 @@ const Contact = () => {
             <i className="far fa-envelope"></i>
           </a>
           <a
-            href="https://github.com/Inder-Pal-github"
+            href="https://github.com/inder231"
             aria-label="GitHub"
             rel="noreferrer"
             target="_blank"
