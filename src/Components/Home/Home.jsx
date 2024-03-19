@@ -10,7 +10,7 @@ import About from "../About/About";
 import { projects } from "../../Utils/Projects";
 import Contact from "../Contact/Contact";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
-import hp2 from "../../assets/Inder_Profile.jpg";
+import hp2 from "../../assets/Inder_Profile.png";
 
 const Home = ({ scrollRef }) => {
   const [projectArray, setProjectArray] = useState(projects.slice(0, 4));
@@ -71,7 +71,7 @@ const Home = ({ scrollRef }) => {
           <h1>Full Stack Web Developer.</h1>
           <div className={styles.btn}>
             <a
-              href="https://drive.google.com/file/d/1GLRvfk5zDWTgoKHLEli7ASNj8no2abTu/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1pZ7mzG-9QDOvC4d0T9BRezA-Kx5vwJWp/view?usp=sharing" 
               target="_blank"
               rel="noreferrer"
             >

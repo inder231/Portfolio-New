@@ -1,8 +1,25 @@
 import bewakoof1 from "../Utils/images/bewakoof1.png";
 import sportjam1 from "../Utils/images/sportjam1.png";
 import tripsVilla from "../Utils/images/tripsVilla.png";
+import votek from "../Utils/images/votek.png";
 
 export const projects = [
+  {
+    img: votek,
+    title: "VOTEK",
+    des: "A simple polling application to generate polls and get responses in realtime, where we can generate polls and share them with our audience.",
+    demo: "",
+    live: "https://votek2.vercel.app",
+    github: "https://github.com/inder231/votek",
+    technologies: [
+      "React",
+      "Chakra-UI",
+      "SocketIO",
+      "Nodemailer",
+      "Oauth",
+      "GitHub",
+    ]
+  },
   {
     img: tripsVilla,
     title: "TRIPSVILLA",
@@ -36,14 +53,5 @@ export const projects = [
       "Localstorage",
       "GitHub",
     ],
-  },
-  {
-    img: sportjam1,
-    title: "SPORTSJAM.IN",
-    des: "Buy Sports Goods Online India at best prices at Sportsjam.in India's leading Online Sports & Fitness Equipment Store. Enjoy shopping!",
-    demo: "",
-    live: "https://resonant-fudge-022d00.netlify.app/",
-    gitHub: "https://github.com/Inder-Pal-github/sportsman_clone",
-    technologies: ["HTML", "CSS", "JavaScript", "Localstorage", "GitHub"],
-  },
+  }
 ];
